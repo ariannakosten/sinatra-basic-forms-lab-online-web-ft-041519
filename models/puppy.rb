@@ -6,9 +6,6 @@ class Puppy
     @name = name
     @breed = breed
     @age = age
-  # end
-  
-  # def months_old
     @months_old = self.age.to_i
-    end
+  end
 end
