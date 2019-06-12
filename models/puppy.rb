@@ -9,6 +9,6 @@ class Puppy
   end
   
   def self.months_old
-    age.to_i
+    self.age.to_i
   end
 end
