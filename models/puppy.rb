@@ -7,4 +7,8 @@ class Puppy
     @breed = breed
     @age = age
   end
+  
+  def months_old
+    age.to_i
+  end
 end
